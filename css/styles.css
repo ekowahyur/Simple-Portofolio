@@ -1,0 +1,396 @@
+body {
+  width: 1152px;
+  background-image: url(../images/bg-page.png);
+  margin: auto;
+}
+
+/* .container {
+  border: 1px solid blue;
+} */
+
+.header-nav {
+  width: 1151px;
+  position: fixed;
+  padding: 18px 150px;
+  background: #FFFFFF;
+  z-index: 9;
+}
+
+.logo {
+  width: 100px;
+  display: flex;
+}
+
+.sidebar {
+  flex: 1;
+}
+
+.navbar {
+  justify-content: flex-end;
+}
+
+.navbar a {
+  margin: 16px;
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #00ac11;
+  text-decoration: underline;
+}
+
+.top-sidebar {
+  display: none;
+}
+
+.overlay-bg {
+  display: none;
+}
+
+.burger-icon {
+  display: none;
+}
+
+.hero-section {
+  padding: 150px 150px 100px;
+  background: #FFFFFF;
+}
+
+.hero-border {
+  display: flex;
+}
+
+.hero-content h1 {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  color: #21243D;
+  padding: 20px 0;
+}
+
+.hero-content p {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #21243D;
+  padding-right: 100px;
+  padding-bottom: 20px;
+}
+
+.hero-content a {
+  border-color: #FF6464;
+  background: #FF6464;
+  border-radius: 2px;
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #FFFFFF;
+  margin: 20px 0;
+  padding: 10px 20px;
+}
+
+.hero-thumbnail {
+  text-align: center;
+}
+
+.hero-thumbnail img {
+  width: 270px;
+  height: 270px;
+  border-radius: 135px;
+  border: darkgrey;
+  box-shadow: -5px 15px #edf7fa;
+}
+
+.featured-work {
+  padding: 50px 150px 100px;
+  background: #21243D;
+}
+
+.featured-work h3 {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 60px;
+  color: #FFFFFF;
+  padding-bottom: 20px;
+}
+
+.card {
+  background: #FFFFFF;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.featured-work img {
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.card-body {
+  padding: 0 20px;
+}
+
+.card-body h4 {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 28px;
+  color: #21243D;
+  padding-bottom: 15px;
+}
+
+.card-body p {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.card-body a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  height: 47px;
+  background: #FF6464;
+  border-radius: 2px;
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.footer {
+  text-align: center;
+  padding: 50px 0;
+  background: #FFFFFF;
+}
+
+.sosmed a {
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+.sosmed img:hover {
+  width: 4%;
+}
+
+.copyright {
+  padding-top: 25px;
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #21243D;
+}
+
+@media (max-width:991px) {
+  body {
+    width: 100%;
+  }
+
+  .header-nav {
+    width: 100%;
+    padding: 18px 30px;
+  }
+
+  .hero-section {
+    padding: 120px 30px 50px;
+  }
+
+  .hero-content {
+    padding-right: 15px;
+  }
+
+  .hero-content h1 {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #21243D;
+    padding: 20px 0;
+  }
+
+  .hero-content p {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    padding-right: 0px;
+    padding-bottom: 20px;
+  }
+
+  .featured-work {
+    padding: 50px 30px 50px;
+    background: #21243D;
+  }
+
+  .card-border {
+    margin-bottom: 24px;
+  }
+
+  .sosmed img:hover {
+    width: 6%;
+  }
+}
+
+@media (max-width:767px) {
+  body {
+    width: 100%;
+  }
+
+  .header-nav {
+    padding: 18px 8px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .sidebar {
+    position: absolute;
+    width: 180px;
+    height: 100vh;
+    top: 0;
+    right: -180px;
+    padding-top: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    z-index: 9;
+    transition: 1s;
+  }
+
+  .sidebar.navbar-active {
+    right: 0px;
+  }
+
+  .top-sidebar {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .logo-sidebar {
+    margin: auto;
+  }
+
+  .burger-icon {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .burger-icon img {
+    width: 40px;
+  }
+
+  .logo-sidebar img {
+    max-width: 50%;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+  }
+
+  .navbar li {
+    padding-top: 20px;
+  }
+
+  .navbar a {
+    margin-left: 10px;
+    font-size: 16px;
+  }
+
+  .overlay-bg {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+    z-index: 1;
+  }
+
+  .overlay-bg.navbar-active {
+    display: block;
+  }
+
+  .hero-section {
+    padding: 70px 0 50px;
+  }
+
+  .hero-border {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .hero-content {
+    padding-top: 30px;
+    padding-right: 15px;
+    text-align: center;
+  }
+
+  .hero-content h1 {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #21243D;
+    padding: 20px 0;
+  }
+
+  .hero-content p {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    padding-right: 0px;
+    padding-bottom: 20px;
+  }
+
+  .hero-thumbnail {
+    flex-direction: column-reverse;
+  }
+
+  .hero-thumbnail img {
+    width: 60%;
+    height: 60%;
+  }
+
+  .sosmed a {
+    text-decoration: none;
+    padding: 0 15px;
+  }
+
+  .sosmed img:hover {
+    width: 13%;
+  }
+}
