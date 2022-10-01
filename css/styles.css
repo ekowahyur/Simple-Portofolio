@@ -293,6 +293,7 @@ body {
 
   .logo-sidebar {
     margin: auto;
+    padding-left: 10px;
   }
 
   .burger-icon {
@@ -303,7 +304,7 @@ body {
   }
 
   .burger-icon img {
-    width: 40px;
+    width: 30px;
   }
 
   .logo-sidebar img {
