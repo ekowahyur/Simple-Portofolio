@@ -21,6 +21,10 @@ body {
   display: flex;
 }
 
+.logo img {
+  height: 50%;
+}
+
 .sidebar {
   flex: 1;
 }
@@ -308,7 +312,7 @@ body {
   }
 
   .logo-sidebar img {
-    max-width: 50%;
+    max-width: 25%;
   }
 
   .navbar {
