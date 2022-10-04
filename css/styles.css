@@ -1,15 +1,10 @@
-body {
-  width: 1152px;
-  background-image: url(../images/bg-page.png);
-  margin: auto;
-}
 
 /* .container {
   border: 1px solid blue;
 } */
 
 .header-nav {
-  width: 1151px;
+  width: 100%;
   position: fixed;
   padding: 18px 150px;
   background: #FFFFFF;
